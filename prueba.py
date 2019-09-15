@@ -37,7 +37,7 @@ class andresClass:
         print ("The most frecuent number is ",new, " it repits ",max, " times.")                               
             
                 
-    array=[1,3,4,3,5,6,4,5,6,3,45,776,2,4,21,2,2,5,67,2]         
+    array=[1,3,4,3,5,6,4,5,6,3,45,2,4,21,2,2,5,67,2]         
     imprimir(5,45)
     numero_perfecto(6)
     numero_perfecto(496)
