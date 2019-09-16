@@ -5,14 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Current File (Integrated Terminal)",
+            "name": "python: Current File (Integrated Terminal)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Remote Attach",
+            "name": "python: Remote Attach",
             "type": "python",
             "request": "attach",
             "port": 5678,
@@ -25,14 +25,14 @@
             ]
         },
         {
-            "name": "Python: Module",
+            "name": "python: Module",
             "type": "python",
             "request": "launch",
             "module": "enter-your-module-name-here",
             "console": "integratedTerminal"
         },
         {
-            "name": "Python: Django",
+            "name": "python: Django",
             "type": "python",
             "request": "launch",
             "program": "${workspaceFolder}/manage.py",
@@ -45,7 +45,7 @@
             "django": true
         },
         {
-            "name": "Python: Flask",
+            "name": "python: Flask",
             "type": "python",
             "request": "launch",
             "module": "flask",
@@ -60,7 +60,7 @@
             "jinja": true
         },
         {
-            "name": "Python: Current File (External Terminal)",
+            "name": "python: Current File (External Terminal)",
             "type": "python",
             "request": "launch",
             "program": "${file}",
