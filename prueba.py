@@ -1,10 +1,13 @@
 class andresClass:
     def imprimir(a,b):
+        
+        
         print (a+b)
     
 
     
-    def numero_perfecto(num):
+    def numero_perfecto(self, num):
+        self.num =num
         ciclos=num/2
         numerosSumar = []
         for i in range (1,(int(ciclos))+1):
@@ -20,7 +23,8 @@ class andresClass:
         else:
             print ("numero imperfecto")
 
-    def most_frecuent(given_array):
+    def most_frecuent(self, given_array):
+        self.given_array=given_array
         print ("most frecuent function")
         max=0
         new=0
