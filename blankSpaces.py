@@ -7,7 +7,7 @@ def blankSpaces(givenString):
             positions.append(band)
         band=band+1
         
-    print ("The given string has", band ,"blank spaces in this positions:" )
+    print ("The given string has blank spaces in this positions:" )
     print(positions)
 
 

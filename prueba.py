@@ -6,8 +6,8 @@ class andresClass:
     
 
     
-    def numero_perfecto(self, num):
-        self.num =num
+    def numero_perfecto( num):
+        
         ciclos=num/2
         numerosSumar = []
         for i in range (1,(int(ciclos))+1):
@@ -23,20 +23,20 @@ class andresClass:
         else:
             print ("numero imperfecto")
 
-    def most_frecuent(self, given_array):
-        self.given_array=given_array
+    def most_frecuent(given_array):
+        
         print ("most frecuent function")
         max=0
         new=0
+        band=0
         for x in given_array:
-            band=0
             for y in given_array:
                 if (x==y):
                     band=band+1
             if(band>max):
                 new=x
                 max=band
-                
+            band=0  
        
         print ("The most frecuent number is ",new, " it repits ",max, " times.")
 
