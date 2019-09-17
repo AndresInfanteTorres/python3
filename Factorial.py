@@ -3,7 +3,7 @@ def recursiveFunction(num):
         if (num>1):
             return num * recursiveFunction(num -1)
         else:
-            return num
+            return 1
 
 
 
