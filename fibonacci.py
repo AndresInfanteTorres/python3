@@ -1,7 +1,7 @@
 #fibonacci method
 def fibonacci():
     
-    for i in range (0,10):
+    for i in range (0,3):
         print (i)
     a=0
     b=1

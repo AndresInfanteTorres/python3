@@ -7,6 +7,11 @@ def printdiccionario():
 
     for value in myDiccionario:
         print (myDiccionario[value])
+
+    print(myDiccionario)
+
+    diccionary2={"andres":29,"Ileana":30,"papa":"50"}
+    print("printing another diccionary",diccionary2)
     
     
         
