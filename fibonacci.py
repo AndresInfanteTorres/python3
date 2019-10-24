@@ -9,7 +9,7 @@ def fibonacci():
     print ("fibonacci 1")
     for i in range (0,10):
         print (a)
-        aux = a
+        aux = a             au0 a1 b0 au1 a1 b1 au1 a2 b1 au2 a3 b2 au3
         a=a+b
         b=aux
 

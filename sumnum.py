@@ -19,7 +19,7 @@ def sumnum(arr1,arr2,num):
 
 arr1=[1,3,5,7]
 arr2=[2,6,8,1]
-num=9
+num=2
 
 sumnum(arr1,arr2,num)
 
