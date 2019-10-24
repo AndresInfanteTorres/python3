@@ -3,9 +3,9 @@ def recursiveFunction(num):
         if (num>1):
             return num * recursiveFunction(num -1)
         else:
-            return 1
+            return num
 
 
 
-print (recursiveFunction(4))
+print (recursiveFunction(5))
 

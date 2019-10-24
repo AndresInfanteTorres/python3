@@ -5,7 +5,7 @@ def blankSpaces(givenString):
     for i in givenString:
         if (i == ' '):
             positions.append(band)
-        band=band+1
+        band+=1
         
     print ("The given string has blank spaces in this positions:" )
     print(positions)
